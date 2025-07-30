@@ -1,0 +1,17 @@
+# .coderabbit.yaml
+language: "ko-KR" # CodeRabbit이 생성하는 리뷰, 요약 등의 언어를 한국어(ko-KR)로 설정합니다. (예: "en-US"로 설정 시 영어)
+early_access: false # CodeRabbit의 얼리 액세스 기능 사용 여부를 설정합니다. true로 설정 시 새로운 기능을 미리 체험할 수 있지만, 안정성이 떨어질 수 있습니다. (true / false)
+reviews:
+  profile: "chill" # 코드 리뷰의 엄격도(rigor)를 설정합니다. "chill" (완화된 피드백), "balanced" (균형 잡힌), "rigorous" (엄격한) 중 선택할 수 있습니다.
+  request_changes_workflow: true # CodeRabbit이 리뷰 완료 후 자동으로 '변경 요청(Request Changes)' 또는 '승인(Approve)' 워크플로우를 진행할지 여부를 설정합니다. (true / false)
+  high_level_summary: true # 풀 리퀘스트에 대한 고수준 요약(high-level summary)을 제공할지 여부를 설정합니다. (true / false)
+  poem: false # 리뷰 끝에 시(poem)를 생성할지 여부를 설정합니다. (true / false)
+  review_status: true # CodeRabbit이 리뷰 진행 상태를 표시할지 여부를 설정합니다. (true / false)
+  collapse_walkthrough: false # CodeRabbit의 상세한 코드 변경 사항 설명(walkthrough)을 기본적으로 접어둘지(collapse) 여부를 설정합니다. false로 설정 시 기본적으로 펼쳐집니다. (true / false)
+  auto_review:
+    enabled: true # 자동 코드 리뷰 기능을 활성화할지 여부를 설정합니다. (true / false)
+    drafts: false # 드래프트(draft) 상태의 풀 리퀘스트도 자동으로 리뷰할지 여부를 설정합니다. false로 설정 시 드래프트 PR은 자동 리뷰에서 제외됩니다. (true / false)
+chat:
+  auto_reply: true # CodeRabbit이 채팅 메시지에 자동으로 응답할지 여부를 설정합니다. (true / false)
+
+#CodeRabbit 의 Configure 에서 자세한 설정 확인 가능
